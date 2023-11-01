@@ -1,0 +1,110 @@
+body{
+    display: block;
+    margin: 0;
+}
+
+ul {
+    padding: 10px 0 10px 0;
+    margin: 0;
+    height: 30px;
+    background-color: rgb(29, 101, 243);
+}
+
+ul li {
+    margin-top: 8px;
+    display: inline-block;
+    margin-left: 20%;
+}
+
+ul li a {
+    font-weight: bold;
+    font-size: 110%;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Shop {
+    position: relative;
+    background-color: rgba(0, 41, 176, 0.7);
+    align-items: center;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 80px;
+    height: fit-content;
+    width: fit-content;
+    top: 50%;
+    bottom: 50%;
+    padding: 15px;
+    margin: auto;
+    border-radius:20px;
+}
+
+#Laptops {
+    margin: auto;
+    margin-top: 20px;
+    background-image: url(BSCS23068_image6.jpg);
+    height: 673px;
+    width: 1200px;
+}
+#products a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: solid;
+    color: black;
+}
+#products{
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    height: auto;
+    background-color: rgb(212, 255, 0);
+    border: 3px solid black;
+    border-radius: 5px;
+}
+footer p{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+
+.active{
+    background-color: yellow;
+    padding: 5px 5px 5px 5px;
+    color: black;
+    border: 0 solid;
+    border-radius: 10px;
+}
+
+.Product_bg img{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    width: 50%;
+}
+.Product_bg p{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    width: 50%;
+}
+.Product_bg{
+    display: block;
+    background-color: beige;
+    height: fit-content;
+    width: fit-content;
+    margin-right: 20px;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: row;
+}
+#ftr{
+    margin: 10px;
+}
